@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">OjekBro</string>
+    <string name="image_login">Image_Login</string>
+    <string name="dash_text">Selamat Datang di</string>
+    <string name="ojekbro">OjekBro</string>
+    <string name="text_desc">Silahkan lakukan login denganakun anda terlebih dahulu untuk masuk</string>
+    <string name="text_desc_register">Silahkan lakukan register terlebih dahulu untuk masuk</string>
+
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login">LOGIN</string>
+    <string name="to_register">Belum Punya Akun ?</string>
+    <string name="register_now">daftar terlebih dahulu</string>
+    <string name="login_now">sudah punya akun ?</string>
+    <string name="login_next">Login sekarang</string>
+    <string name="register">Register</string>
+    <string name="name">Nama</string>
 </resources>
