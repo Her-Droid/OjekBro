@@ -5,9 +5,15 @@
       <map>
         <entry key="..\:/Users/russi/AndroidStudioProjects/OjekBro/app/src/main/res/drawable/rounder_email.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/russi/AndroidStudioProjects/OjekBro/app/src/main/res/drawable/rounder_toggle.xml" value="0.22552083333333334" />
-        <entry key="..\:/Users/russi/AndroidStudioProjects/OjekBro/app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="..\:/Users/russi/AndroidStudioProjects/OjekBro/app/src/main/res/layout/activity_main.xml" value="0.209375" />
-        <entry key="..\:/Users/russi/AndroidStudioProjects/OjekBro/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/russi/AndroidStudioProjects/OjekBro/app/src/main/res/layout/activity_auth.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/russi/AndroidStudioProjects/OjekBro/app/src/main/res/layout/activity_detail.xml" value="0.209375" />
+        <entry key="..\:/Users/russi/AndroidStudioProjects/OjekBro/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/russi/AndroidStudioProjects/OjekBro/app/src/main/res/layout/activity_main.xml" value="0.41875" />
+        <entry key="..\:/Users/russi/AndroidStudioProjects/OjekBro/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/russi/AndroidStudioProjects/OjekBro/app/src/main/res/layout/fragment_auth.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/russi/AndroidStudioProjects/OjekBro/app/src/main/res/layout/fragment_login.xml" value="0.209375" />
+        <entry key="..\:/Users/russi/AndroidStudioProjects/OjekBro/app/src/main/res/layout/fragment_register.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/russi/AndroidStudioProjects/OjekBro/app/src/main/res/layout/list_item.xml" value="0.25" />
       </map>
     </option>
   </component>

@@ -15,4 +15,5 @@
     <string name="login_next">Login sekarang</string>
     <string name="register">Register</string>
     <string name="name">Nama</string>
+    <string name="home_title">rumah saya</string>
 </resources>

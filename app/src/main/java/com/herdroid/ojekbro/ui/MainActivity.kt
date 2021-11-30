@@ -1,7 +1,8 @@
-package com.herdroid.ojekbro
+package com.herdroid.ojekbro.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.herdroid.ojekbro.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
