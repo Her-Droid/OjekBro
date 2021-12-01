@@ -27,7 +27,7 @@ class LoginFragment : BaseFragment<OjekBroViewModel, FragmentLoginBinding, OjekB
             when (it) {
                 is Resource.Success -> {
                     lifecycleScope.launch {
-                        viewModel.saveAuthToken(it.value.loginEntity.access_token)
+                        viewModel.saveAuthToken(it.value.data.token)
                         requireActivity().startNewActivity(MainActivity::class.java)
                     }
                 }

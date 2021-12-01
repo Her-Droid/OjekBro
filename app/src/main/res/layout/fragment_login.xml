@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:text="@string/dash_text"
             android:textColor="@color/black"
-            android:textSize="28sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <TextView
@@ -32,7 +32,7 @@
             android:layout_marginStart="8dp"
             android:text="@string/ojekbro"
             android:textColor="@color/teal"
-            android:textSize="28sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -40,12 +40,12 @@
 
     <TextView
         android:id="@+id/tvDescription"
-        android:layout_width="342dp"
-        android:layout_height="34dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/text_desc"
         android:textColor="#757575"
-        android:textSize="12sp"
+        android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/imgDashboard"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,7 +57,7 @@
         android:id="@+id/imgDashboard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:contentDescription="@string/image_login"
         android:src="@drawable/ojkbro"
         app:layout_constraintTop_toBottomOf="@id/tvDescription" />
@@ -66,10 +66,9 @@
         android:id="@+id/textInputEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:background="@color/white"
         app:counterEnabled="true"
-        app:counterMaxLength="8"
         app:layout_constraintTop_toBottomOf="@id/imgDashboard">
 
         <EditText
@@ -90,24 +89,19 @@
         android:layout_height="wrap_content"
         android:background="@color/white"
         app:counterEnabled="true"
-        app:counterMaxLength="8"
-        app:layout_constraintTop_toBottomOf="@id/textInputEmail"
-        app:passwordToggleEnabled="true"
-        app:passwordToggleTint="@color/black">
+        app:layout_constraintTop_toBottomOf="@id/textInputEmail">
 
         <EditText
             android:id="@+id/password_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:autofillHints="password"
-            android:background="@drawable/rounded_password"
+            android:background="@drawable/rounded_email"
             android:hint="@string/password"
             android:inputType="textPassword"
-            android:maxLength="8"
             android:padding="10dp"/>
 
     </com.google.android.material.textfield.TextInputLayout>
-
 
     <Button
         android:id="@+id/btnLogin"

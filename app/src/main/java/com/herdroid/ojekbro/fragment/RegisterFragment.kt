@@ -64,7 +64,7 @@ class RegisterFragment : BaseFragment<OjekBroViewModel, FragmentRegisterBinding,
         inflater: LayoutInflater,
         container: ViewGroup?
     ): FragmentRegisterBinding {
-       return  FragmentRegisterBinding.inflate(inflater, container, false)
+        return  FragmentRegisterBinding.inflate(inflater, container, false)
     }
 
     override fun getFragmentRepository(): OjekBroRepository {
